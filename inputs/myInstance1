@@ -1,0 +1,1789 @@
+{
+    "estimateCode": "myInstance1",
+    "algorithmBaseParamDto": {
+        "platformDtoList": [
+            {
+                "platformCode": "platform01",
+                "mustFirst": false,
+                "x_coords": 3031,
+                "y_coords": 3086
+            },
+            {
+                "platformCode": "platform02",
+                "mustFirst": false,
+                "x_coords": 4910,
+                "y_coords": 2542
+            },
+            {
+                "platformCode": "platform03",
+                "mustFirst": false,
+                "x_coords": 1717,
+                "y_coords": 7569
+            },
+            {
+                "platformCode": "platform04",
+                "mustFirst": false,
+                "x_coords": 2842,
+                "y_coords": 7849
+            },
+            {
+                "platformCode": "platform05",
+                "mustFirst": false,
+                "x_coords": 3178,
+                "y_coords": 2849
+            },
+            {
+                "platformCode": "platform06",
+                "mustFirst": false,
+                "x_coords": 8507,
+                "y_coords": 5713
+            },
+            {
+                "platformCode": "platform07",
+                "mustFirst": false,
+                "x_coords": 9566,
+                "y_coords": 2419
+            },
+            {
+                "platformCode": "platform08",
+                "mustFirst": false,
+                "x_coords": 3386,
+                "y_coords": 6963
+            }
+        ],
+        "truckTypeDtoList": [
+            {
+                "truckTypeId": "40001",
+                "truckTypeCode": "R110",
+                "truckTypeName": "20GP",
+                "length": 5890.0,
+                "width": 2318.0,
+                "height": 2270.0,
+                "maxLoad": 18000.0
+            },
+            {
+                "truckTypeId": "41001",
+                "truckTypeCode": "CT10",
+                "truckTypeName": "40GP",
+                "length": 11920.0,
+                "width": 2318.0,
+                "height": 2270.0,
+                "maxLoad": 23000.0
+            },
+            {
+                "truckTypeId": "42001",
+                "truckTypeCode": "CT03",
+                "truckTypeName": "40HQ",
+                "length": 11920.0,
+                "width": 2318.0,
+                "height": 2600.0,
+                "maxLoad": 23000.0
+            }
+        ],
+        "truckTypeMap": {
+            "40001": {
+                "truckTypeId": "40001",
+                "truckTypeCode": "R110",
+                "truckTypeName": "20GP",
+                "length": 5890.0,
+                "width": 2318.0,
+                "height": 2270.0,
+                "maxLoad": 18000.0
+            },
+            "41001": {
+                "truckTypeId": "41001",
+                "truckTypeCode": "CT10",
+                "truckTypeName": "40GP",
+                "length": 11920.0,
+                "width": 2318.0,
+                "height": 2270.0,
+                "maxLoad": 23000.0
+            },
+            "42001": {
+                "truckTypeId": "42001",
+                "truckTypeCode": "CT03",
+                "truckTypeName": "40HQ",
+                "length": 11920.0,
+                "width": 2318.0,
+                "height": 2600.0,
+                "maxLoad": 23000.0
+            }
+        },
+        "distanceMap": {
+            "platform01+platform02": 1956.1638479432136,
+            "platform01+platform03": 4671.604114220297,
+            "platform01+platform04": 4766.748367598189,
+            "platform01+platform05": 278.88707392061036,
+            "platform01+platform06": 6073.524923798371,
+            "platform01+platform07": 6568.950753354755,
+            "platform01+platform08": 3893.2189766310344,
+            "platform01+end_point": 13352,
+            "platform02+platform01": 1956.1638479432136,
+            "platform02+platform03": 5955.3318967123905,
+            "platform02+platform04": 5695.688983784139,
+            "platform02+platform05": 1758.9977259792008,
+            "platform02+platform06": 4795.169444347092,
+            "platform02+platform07": 4657.624394474075,
+            "platform02+platform08": 4676.303775419215,
+            "platform02+end_point": 18936,
+            "platform03+platform01": 4671.604114220297,
+            "platform03+platform02": 5955.3318967123905,
+            "platform03+platform04": 1159.3209219193795,
+            "platform03+platform05": 4940.943330984479,
+            "platform03+platform06": 7039.093407534809,
+            "platform03+platform07": 9387.720756392362,
+            "platform03+platform08": 1775.6117255751608,
+            "platform03+end_point": 8985,
+            "platform04+platform01": 4766.748367598189,
+            "platform04+platform02": 5695.688983784139,
+            "platform04+platform03": 1159.3209219193795,
+            "platform04+platform05": 5011.2768831905505,
+            "platform04+platform06": 6054.314246882135,
+            "platform04+platform07": 8642.747017007961,
+            "platform04+platform08": 1039.678796552089,
+            "platform04+end_point": 17934,
+            "platform05+platform01": 278.88707392061036,
+            "platform05+platform02": 1758.9977259792008,
+            "platform05+platform03": 4940.943330984479,
+            "platform05+platform04": 5011.2768831905505,
+            "platform05+platform06": 6049.854295766138,
+            "platform05+platform07": 6402.456091219994,
+            "platform05+platform08": 4119.254786973003,
+            "platform05+end_point": 6368,
+            "platform06+platform01": 6073.524923798371,
+            "platform06+platform02": 4795.169444347092,
+            "platform06+platform03": 7039.093407534809,
+            "platform06+platform04": 6054.314246882135,
+            "platform06+platform05": 6049.854295766138,
+            "platform06+platform07": 3460.0458089453095,
+            "platform06+platform08": 5271.3509653598285,
+            "platform06+end_point": 11469,
+            "platform07+platform01": 6568.950753354755,
+            "platform07+platform02": 4657.624394474075,
+            "platform07+platform03": 9387.720756392362,
+            "platform07+platform04": 8642.747017007961,
+            "platform07+platform05": 6402.456091219994,
+            "platform07+platform06": 3460.0458089453095,
+            "platform07+platform08": 7670.745465728869,
+            "platform07+end_point": 3955,
+            "platform08+platform01": 3893.2189766310344,
+            "platform08+platform02": 4676.303775419215,
+            "platform08+platform03": 1775.6117255751608,
+            "platform08+platform04": 1039.678796552089,
+            "platform08+platform05": 4119.254786973003,
+            "platform08+platform06": 5271.3509653598285,
+            "platform08+platform07": 7670.745465728869,
+            "platform08+end_point": 16453,
+            "start_point+platform01": 4631,
+            "start_point+platform02": 11400,
+            "start_point+platform03": 7288,
+            "start_point+platform04": 14791,
+            "start_point+platform05": 6626,
+            "start_point+platform06": 10265,
+            "start_point+platform07": 10178,
+            "start_point+platform08": 18773
+        }
+    },
+    "boxes": [
+        {
+            "spuBoxId": "1",
+            "platformCode": "platform01",
+            "length": 1200,
+            "width": 700,
+            "height": 400,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "2",
+            "platformCode": "platform01",
+            "length": 1000,
+            "width": 400,
+            "height": 300,
+            "weight": 28
+        },
+        {
+            "spuBoxId": "3",
+            "platformCode": "platform01",
+            "length": 500,
+            "width": 600,
+            "height": 900,
+            "weight": 30
+        },
+        {
+            "spuBoxId": "4",
+            "platformCode": "platform01",
+            "length": 700,
+            "width": 700,
+            "height": 800,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "5",
+            "platformCode": "platform01",
+            "length": 600,
+            "width": 900,
+            "height": 300,
+            "weight": 23
+        },
+        {
+            "spuBoxId": "6",
+            "platformCode": "platform01",
+            "length": 1300,
+            "width": 700,
+            "height": 300,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "7",
+            "platformCode": "platform02",
+            "length": 1500,
+            "width": 500,
+            "height": 500,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "8",
+            "platformCode": "platform02",
+            "length": 1100,
+            "width": 400,
+            "height": 400,
+            "weight": 23
+        },
+        {
+            "spuBoxId": "9",
+            "platformCode": "platform03",
+            "length": 800,
+            "width": 700,
+            "height": 400,
+            "weight": 16
+        },
+        {
+            "spuBoxId": "10",
+            "platformCode": "platform03",
+            "length": 800,
+            "width": 400,
+            "height": 400,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "11",
+            "platformCode": "platform03",
+            "length": 900,
+            "width": 600,
+            "height": 400,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "12",
+            "platformCode": "platform03",
+            "length": 1300,
+            "width": 700,
+            "height": 400,
+            "weight": 31
+        },
+        {
+            "spuBoxId": "13",
+            "platformCode": "platform03",
+            "length": 1100,
+            "width": 1000,
+            "height": 800,
+            "weight": 20
+        },
+        {
+            "spuBoxId": "14",
+            "platformCode": "platform03",
+            "length": 1300,
+            "width": 400,
+            "height": 400,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "15",
+            "platformCode": "platform03",
+            "length": 1000,
+            "width": 500,
+            "height": 300,
+            "weight": 21
+        },
+        {
+            "spuBoxId": "16",
+            "platformCode": "platform03",
+            "length": 900,
+            "width": 600,
+            "height": 500,
+            "weight": 30
+        },
+        {
+            "spuBoxId": "17",
+            "platformCode": "platform03",
+            "length": 1200,
+            "width": 1000,
+            "height": 600,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "18",
+            "platformCode": "platform03",
+            "length": 600,
+            "width": 1000,
+            "height": 400,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "19",
+            "platformCode": "platform03",
+            "length": 700,
+            "width": 800,
+            "height": 400,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "20",
+            "platformCode": "platform03",
+            "length": 1100,
+            "width": 1000,
+            "height": 700,
+            "weight": 31
+        },
+        {
+            "spuBoxId": "21",
+            "platformCode": "platform03",
+            "length": 500,
+            "width": 800,
+            "height": 400,
+            "weight": 20
+        },
+        {
+            "spuBoxId": "22",
+            "platformCode": "platform03",
+            "length": 1500,
+            "width": 700,
+            "height": 500,
+            "weight": 26
+        },
+        {
+            "spuBoxId": "23",
+            "platformCode": "platform03",
+            "length": 500,
+            "width": 400,
+            "height": 300,
+            "weight": 30
+        },
+        {
+            "spuBoxId": "24",
+            "platformCode": "platform03",
+            "length": 1500,
+            "width": 1000,
+            "height": 400,
+            "weight": 14
+        },
+        {
+            "spuBoxId": "25",
+            "platformCode": "platform03",
+            "length": 900,
+            "width": 900,
+            "height": 700,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "26",
+            "platformCode": "platform03",
+            "length": 900,
+            "width": 1200,
+            "height": 400,
+            "weight": 33
+        },
+        {
+            "spuBoxId": "27",
+            "platformCode": "platform03",
+            "length": 500,
+            "width": 500,
+            "height": 700,
+            "weight": 31
+        },
+        {
+            "spuBoxId": "28",
+            "platformCode": "platform03",
+            "length": 1200,
+            "width": 600,
+            "height": 800,
+            "weight": 20
+        },
+        {
+            "spuBoxId": "29",
+            "platformCode": "platform03",
+            "length": 1300,
+            "width": 700,
+            "height": 800,
+            "weight": 13
+        },
+        {
+            "spuBoxId": "30",
+            "platformCode": "platform03",
+            "length": 600,
+            "width": 1200,
+            "height": 800,
+            "weight": 32
+        },
+        {
+            "spuBoxId": "31",
+            "platformCode": "platform03",
+            "length": 600,
+            "width": 1100,
+            "height": 500,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "32",
+            "platformCode": "platform03",
+            "length": 1000,
+            "width": 700,
+            "height": 700,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "33",
+            "platformCode": "platform03",
+            "length": 1300,
+            "width": 800,
+            "height": 700,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "34",
+            "platformCode": "platform03",
+            "length": 500,
+            "width": 1100,
+            "height": 800,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "35",
+            "platformCode": "platform03",
+            "length": 1100,
+            "width": 700,
+            "height": 700,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "36",
+            "platformCode": "platform03",
+            "length": 1000,
+            "width": 600,
+            "height": 600,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "37",
+            "platformCode": "platform03",
+            "length": 1300,
+            "width": 600,
+            "height": 700,
+            "weight": 18
+        },
+        {
+            "spuBoxId": "38",
+            "platformCode": "platform03",
+            "length": 1000,
+            "width": 900,
+            "height": 400,
+            "weight": 14
+        },
+        {
+            "spuBoxId": "39",
+            "platformCode": "platform03",
+            "length": 700,
+            "width": 600,
+            "height": 900,
+            "weight": 14
+        },
+        {
+            "spuBoxId": "40",
+            "platformCode": "platform03",
+            "length": 1300,
+            "width": 1200,
+            "height": 500,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "41",
+            "platformCode": "platform03",
+            "length": 700,
+            "width": 1000,
+            "height": 600,
+            "weight": 24
+        },
+        {
+            "spuBoxId": "42",
+            "platformCode": "platform03",
+            "length": 1400,
+            "width": 1000,
+            "height": 700,
+            "weight": 17
+        },
+        {
+            "spuBoxId": "43",
+            "platformCode": "platform03",
+            "length": 700,
+            "width": 800,
+            "height": 600,
+            "weight": 30
+        },
+        {
+            "spuBoxId": "44",
+            "platformCode": "platform03",
+            "length": 1000,
+            "width": 1100,
+            "height": 700,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "45",
+            "platformCode": "platform03",
+            "length": 500,
+            "width": 1200,
+            "height": 800,
+            "weight": 16
+        },
+        {
+            "spuBoxId": "46",
+            "platformCode": "platform04",
+            "length": 900,
+            "width": 600,
+            "height": 800,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "47",
+            "platformCode": "platform04",
+            "length": 500,
+            "width": 1000,
+            "height": 400,
+            "weight": 21
+        },
+        {
+            "spuBoxId": "48",
+            "platformCode": "platform04",
+            "length": 800,
+            "width": 1100,
+            "height": 900,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "49",
+            "platformCode": "platform04",
+            "length": 800,
+            "width": 400,
+            "height": 300,
+            "weight": 30
+        },
+        {
+            "spuBoxId": "50",
+            "platformCode": "platform04",
+            "length": 600,
+            "width": 400,
+            "height": 900,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "51",
+            "platformCode": "platform04",
+            "length": 1100,
+            "width": 500,
+            "height": 400,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "52",
+            "platformCode": "platform04",
+            "length": 1300,
+            "width": 500,
+            "height": 800,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "53",
+            "platformCode": "platform04",
+            "length": 1400,
+            "width": 400,
+            "height": 400,
+            "weight": 31
+        },
+        {
+            "spuBoxId": "54",
+            "platformCode": "platform04",
+            "length": 1200,
+            "width": 800,
+            "height": 700,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "55",
+            "platformCode": "platform04",
+            "length": 700,
+            "width": 600,
+            "height": 500,
+            "weight": 13
+        },
+        {
+            "spuBoxId": "56",
+            "platformCode": "platform04",
+            "length": 1100,
+            "width": 1100,
+            "height": 500,
+            "weight": 13
+        },
+        {
+            "spuBoxId": "57",
+            "platformCode": "platform04",
+            "length": 1400,
+            "width": 600,
+            "height": 300,
+            "weight": 30
+        },
+        {
+            "spuBoxId": "58",
+            "platformCode": "platform04",
+            "length": 1300,
+            "width": 600,
+            "height": 700,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "59",
+            "platformCode": "platform04",
+            "length": 1000,
+            "width": 1100,
+            "height": 400,
+            "weight": 32
+        },
+        {
+            "spuBoxId": "60",
+            "platformCode": "platform04",
+            "length": 900,
+            "width": 800,
+            "height": 400,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "61",
+            "platformCode": "platform04",
+            "length": 1100,
+            "width": 400,
+            "height": 300,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "62",
+            "platformCode": "platform04",
+            "length": 1500,
+            "width": 700,
+            "height": 900,
+            "weight": 26
+        },
+        {
+            "spuBoxId": "63",
+            "platformCode": "platform04",
+            "length": 900,
+            "width": 900,
+            "height": 700,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "64",
+            "platformCode": "platform04",
+            "length": 1500,
+            "width": 1100,
+            "height": 800,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "65",
+            "platformCode": "platform04",
+            "length": 500,
+            "width": 900,
+            "height": 300,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "66",
+            "platformCode": "platform04",
+            "length": 900,
+            "width": 800,
+            "height": 700,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "67",
+            "platformCode": "platform04",
+            "length": 700,
+            "width": 700,
+            "height": 900,
+            "weight": 33
+        },
+        {
+            "spuBoxId": "68",
+            "platformCode": "platform04",
+            "length": 1300,
+            "width": 500,
+            "height": 600,
+            "weight": 23
+        },
+        {
+            "spuBoxId": "69",
+            "platformCode": "platform04",
+            "length": 1500,
+            "width": 400,
+            "height": 800,
+            "weight": 26
+        },
+        {
+            "spuBoxId": "70",
+            "platformCode": "platform04",
+            "length": 1400,
+            "width": 800,
+            "height": 800,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "71",
+            "platformCode": "platform04",
+            "length": 500,
+            "width": 700,
+            "height": 500,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "72",
+            "platformCode": "platform04",
+            "length": 1200,
+            "width": 1000,
+            "height": 300,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "73",
+            "platformCode": "platform04",
+            "length": 1200,
+            "width": 500,
+            "height": 300,
+            "weight": 11
+        },
+        {
+            "spuBoxId": "74",
+            "platformCode": "platform04",
+            "length": 500,
+            "width": 700,
+            "height": 400,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "75",
+            "platformCode": "platform05",
+            "length": 1200,
+            "width": 600,
+            "height": 400,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "76",
+            "platformCode": "platform05",
+            "length": 700,
+            "width": 700,
+            "height": 300,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "77",
+            "platformCode": "platform05",
+            "length": 900,
+            "width": 500,
+            "height": 600,
+            "weight": 13
+        },
+        {
+            "spuBoxId": "78",
+            "platformCode": "platform05",
+            "length": 1200,
+            "width": 500,
+            "height": 300,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "79",
+            "platformCode": "platform05",
+            "length": 800,
+            "width": 500,
+            "height": 400,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "80",
+            "platformCode": "platform05",
+            "length": 1500,
+            "width": 1000,
+            "height": 500,
+            "weight": 24
+        },
+        {
+            "spuBoxId": "81",
+            "platformCode": "platform05",
+            "length": 1200,
+            "width": 700,
+            "height": 900,
+            "weight": 26
+        },
+        {
+            "spuBoxId": "82",
+            "platformCode": "platform05",
+            "length": 900,
+            "width": 1200,
+            "height": 600,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "83",
+            "platformCode": "platform05",
+            "length": 1300,
+            "width": 1000,
+            "height": 900,
+            "weight": 33
+        },
+        {
+            "spuBoxId": "84",
+            "platformCode": "platform05",
+            "length": 1100,
+            "width": 400,
+            "height": 500,
+            "weight": 15
+        },
+        {
+            "spuBoxId": "85",
+            "platformCode": "platform06",
+            "length": 900,
+            "width": 400,
+            "height": 700,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "86",
+            "platformCode": "platform06",
+            "length": 600,
+            "width": 800,
+            "height": 800,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "87",
+            "platformCode": "platform06",
+            "length": 1000,
+            "width": 400,
+            "height": 500,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "88",
+            "platformCode": "platform06",
+            "length": 700,
+            "width": 500,
+            "height": 400,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "89",
+            "platformCode": "platform06",
+            "length": 500,
+            "width": 1100,
+            "height": 500,
+            "weight": 23
+        },
+        {
+            "spuBoxId": "90",
+            "platformCode": "platform06",
+            "length": 1000,
+            "width": 600,
+            "height": 400,
+            "weight": 18
+        },
+        {
+            "spuBoxId": "91",
+            "platformCode": "platform06",
+            "length": 500,
+            "width": 500,
+            "height": 800,
+            "weight": 35
+        },
+        {
+            "spuBoxId": "92",
+            "platformCode": "platform07",
+            "length": 1000,
+            "width": 400,
+            "height": 800,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "93",
+            "platformCode": "platform07",
+            "length": 1500,
+            "width": 900,
+            "height": 500,
+            "weight": 26
+        },
+        {
+            "spuBoxId": "94",
+            "platformCode": "platform07",
+            "length": 1200,
+            "width": 1100,
+            "height": 300,
+            "weight": 21
+        },
+        {
+            "spuBoxId": "95",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 400,
+            "height": 900,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "96",
+            "platformCode": "platform07",
+            "length": 1200,
+            "width": 1000,
+            "height": 500,
+            "weight": 35
+        },
+        {
+            "spuBoxId": "97",
+            "platformCode": "platform07",
+            "length": 800,
+            "width": 900,
+            "height": 400,
+            "weight": 38
+        },
+        {
+            "spuBoxId": "98",
+            "platformCode": "platform07",
+            "length": 500,
+            "width": 600,
+            "height": 800,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "99",
+            "platformCode": "platform07",
+            "length": 1500,
+            "width": 1100,
+            "height": 500,
+            "weight": 15
+        },
+        {
+            "spuBoxId": "100",
+            "platformCode": "platform07",
+            "length": 1100,
+            "width": 900,
+            "height": 900,
+            "weight": 31
+        },
+        {
+            "spuBoxId": "101",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 700,
+            "height": 600,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "102",
+            "platformCode": "platform07",
+            "length": 1200,
+            "width": 1200,
+            "height": 800,
+            "weight": 13
+        },
+        {
+            "spuBoxId": "103",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 800,
+            "height": 500,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "104",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 400,
+            "height": 900,
+            "weight": 18
+        },
+        {
+            "spuBoxId": "105",
+            "platformCode": "platform07",
+            "length": 1100,
+            "width": 600,
+            "height": 400,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "106",
+            "platformCode": "platform07",
+            "length": 700,
+            "width": 500,
+            "height": 600,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "107",
+            "platformCode": "platform07",
+            "length": 1100,
+            "width": 500,
+            "height": 500,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "108",
+            "platformCode": "platform07",
+            "length": 800,
+            "width": 600,
+            "height": 500,
+            "weight": 16
+        },
+        {
+            "spuBoxId": "109",
+            "platformCode": "platform07",
+            "length": 900,
+            "width": 1200,
+            "height": 800,
+            "weight": 35
+        },
+        {
+            "spuBoxId": "110",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 800,
+            "height": 700,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "111",
+            "platformCode": "platform07",
+            "length": 1000,
+            "width": 1200,
+            "height": 600,
+            "weight": 14
+        },
+        {
+            "spuBoxId": "112",
+            "platformCode": "platform07",
+            "length": 600,
+            "width": 500,
+            "height": 500,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "113",
+            "platformCode": "platform07",
+            "length": 600,
+            "width": 700,
+            "height": 500,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "114",
+            "platformCode": "platform07",
+            "length": 1100,
+            "width": 700,
+            "height": 400,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "115",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 800,
+            "height": 300,
+            "weight": 35
+        },
+        {
+            "spuBoxId": "116",
+            "platformCode": "platform07",
+            "length": 500,
+            "width": 800,
+            "height": 900,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "117",
+            "platformCode": "platform07",
+            "length": 1500,
+            "width": 1000,
+            "height": 300,
+            "weight": 17
+        },
+        {
+            "spuBoxId": "118",
+            "platformCode": "platform07",
+            "length": 800,
+            "width": 1200,
+            "height": 400,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "119",
+            "platformCode": "platform07",
+            "length": 700,
+            "width": 700,
+            "height": 900,
+            "weight": 20
+        },
+        {
+            "spuBoxId": "120",
+            "platformCode": "platform07",
+            "length": 600,
+            "width": 700,
+            "height": 500,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "121",
+            "platformCode": "platform07",
+            "length": 1100,
+            "width": 400,
+            "height": 400,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "122",
+            "platformCode": "platform07",
+            "length": 1300,
+            "width": 400,
+            "height": 800,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "123",
+            "platformCode": "platform07",
+            "length": 1200,
+            "width": 1100,
+            "height": 800,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "124",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 1100,
+            "height": 700,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "125",
+            "platformCode": "platform07",
+            "length": 500,
+            "width": 900,
+            "height": 600,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "126",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 700,
+            "height": 700,
+            "weight": 18
+        },
+        {
+            "spuBoxId": "127",
+            "platformCode": "platform07",
+            "length": 700,
+            "width": 500,
+            "height": 400,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "128",
+            "platformCode": "platform07",
+            "length": 1500,
+            "width": 400,
+            "height": 800,
+            "weight": 20
+        },
+        {
+            "spuBoxId": "129",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 900,
+            "height": 500,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "130",
+            "platformCode": "platform07",
+            "length": 1500,
+            "width": 400,
+            "height": 800,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "131",
+            "platformCode": "platform07",
+            "length": 700,
+            "width": 1200,
+            "height": 700,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "132",
+            "platformCode": "platform07",
+            "length": 500,
+            "width": 1100,
+            "height": 400,
+            "weight": 23
+        },
+        {
+            "spuBoxId": "133",
+            "platformCode": "platform07",
+            "length": 1100,
+            "width": 500,
+            "height": 900,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "134",
+            "platformCode": "platform07",
+            "length": 700,
+            "width": 400,
+            "height": 300,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "135",
+            "platformCode": "platform07",
+            "length": 500,
+            "width": 1100,
+            "height": 700,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "136",
+            "platformCode": "platform07",
+            "length": 1100,
+            "width": 900,
+            "height": 900,
+            "weight": 24
+        },
+        {
+            "spuBoxId": "137",
+            "platformCode": "platform07",
+            "length": 800,
+            "width": 1000,
+            "height": 300,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "138",
+            "platformCode": "platform07",
+            "length": 1000,
+            "width": 1200,
+            "height": 400,
+            "weight": 16
+        },
+        {
+            "spuBoxId": "139",
+            "platformCode": "platform07",
+            "length": 1200,
+            "width": 1200,
+            "height": 900,
+            "weight": 26
+        },
+        {
+            "spuBoxId": "140",
+            "platformCode": "platform07",
+            "length": 1200,
+            "width": 1100,
+            "height": 300,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "141",
+            "platformCode": "platform07",
+            "length": 900,
+            "width": 1000,
+            "height": 400,
+            "weight": 38
+        },
+        {
+            "spuBoxId": "142",
+            "platformCode": "platform07",
+            "length": 1500,
+            "width": 700,
+            "height": 500,
+            "weight": 15
+        },
+        {
+            "spuBoxId": "143",
+            "platformCode": "platform07",
+            "length": 600,
+            "width": 1100,
+            "height": 400,
+            "weight": 19
+        },
+        {
+            "spuBoxId": "144",
+            "platformCode": "platform07",
+            "length": 700,
+            "width": 700,
+            "height": 500,
+            "weight": 13
+        },
+        {
+            "spuBoxId": "145",
+            "platformCode": "platform07",
+            "length": 1400,
+            "width": 700,
+            "height": 800,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "146",
+            "platformCode": "platform07",
+            "length": 900,
+            "width": 1000,
+            "height": 600,
+            "weight": 31
+        },
+        {
+            "spuBoxId": "147",
+            "platformCode": "platform08",
+            "length": 800,
+            "width": 600,
+            "height": 400,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "148",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 800,
+            "height": 300,
+            "weight": 18
+        },
+        {
+            "spuBoxId": "149",
+            "platformCode": "platform08",
+            "length": 1000,
+            "width": 700,
+            "height": 500,
+            "weight": 33
+        },
+        {
+            "spuBoxId": "150",
+            "platformCode": "platform08",
+            "length": 1100,
+            "width": 900,
+            "height": 900,
+            "weight": 26
+        },
+        {
+            "spuBoxId": "151",
+            "platformCode": "platform08",
+            "length": 900,
+            "width": 1200,
+            "height": 600,
+            "weight": 35
+        },
+        {
+            "spuBoxId": "152",
+            "platformCode": "platform08",
+            "length": 600,
+            "width": 1200,
+            "height": 800,
+            "weight": 29
+        },
+        {
+            "spuBoxId": "153",
+            "platformCode": "platform08",
+            "length": 500,
+            "width": 400,
+            "height": 700,
+            "weight": 11
+        },
+        {
+            "spuBoxId": "154",
+            "platformCode": "platform08",
+            "length": 1500,
+            "width": 500,
+            "height": 900,
+            "weight": 11
+        },
+        {
+            "spuBoxId": "155",
+            "platformCode": "platform08",
+            "length": 1400,
+            "width": 700,
+            "height": 600,
+            "weight": 13
+        },
+        {
+            "spuBoxId": "156",
+            "platformCode": "platform08",
+            "length": 600,
+            "width": 800,
+            "height": 900,
+            "weight": 16
+        },
+        {
+            "spuBoxId": "157",
+            "platformCode": "platform08",
+            "length": 1200,
+            "width": 1100,
+            "height": 400,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "158",
+            "platformCode": "platform08",
+            "length": 1200,
+            "width": 1000,
+            "height": 800,
+            "weight": 35
+        },
+        {
+            "spuBoxId": "159",
+            "platformCode": "platform08",
+            "length": 600,
+            "width": 800,
+            "height": 600,
+            "weight": 32
+        },
+        {
+            "spuBoxId": "160",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 500,
+            "height": 900,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "161",
+            "platformCode": "platform08",
+            "length": 900,
+            "width": 700,
+            "height": 800,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "162",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 700,
+            "height": 500,
+            "weight": 30
+        },
+        {
+            "spuBoxId": "163",
+            "platformCode": "platform08",
+            "length": 1300,
+            "width": 400,
+            "height": 700,
+            "weight": 38
+        },
+        {
+            "spuBoxId": "164",
+            "platformCode": "platform08",
+            "length": 1100,
+            "width": 1000,
+            "height": 700,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "165",
+            "platformCode": "platform08",
+            "length": 1500,
+            "width": 1200,
+            "height": 600,
+            "weight": 21
+        },
+        {
+            "spuBoxId": "166",
+            "platformCode": "platform08",
+            "length": 1500,
+            "width": 400,
+            "height": 700,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "167",
+            "platformCode": "platform08",
+            "length": 1000,
+            "width": 800,
+            "height": 300,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "168",
+            "platformCode": "platform08",
+            "length": 1300,
+            "width": 700,
+            "height": 600,
+            "weight": 11
+        },
+        {
+            "spuBoxId": "169",
+            "platformCode": "platform08",
+            "length": 1000,
+            "width": 1100,
+            "height": 600,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "170",
+            "platformCode": "platform08",
+            "length": 1400,
+            "width": 400,
+            "height": 900,
+            "weight": 36
+        },
+        {
+            "spuBoxId": "171",
+            "platformCode": "platform08",
+            "length": 800,
+            "width": 900,
+            "height": 500,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "172",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 800,
+            "height": 400,
+            "weight": 34
+        },
+        {
+            "spuBoxId": "173",
+            "platformCode": "platform08",
+            "length": 1500,
+            "width": 1000,
+            "height": 400,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "174",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 1100,
+            "height": 600,
+            "weight": 24
+        },
+        {
+            "spuBoxId": "175",
+            "platformCode": "platform08",
+            "length": 1100,
+            "width": 1000,
+            "height": 300,
+            "weight": 23
+        },
+        {
+            "spuBoxId": "176",
+            "platformCode": "platform08",
+            "length": 1200,
+            "width": 1100,
+            "height": 700,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "177",
+            "platformCode": "platform08",
+            "length": 500,
+            "width": 400,
+            "height": 900,
+            "weight": 23
+        },
+        {
+            "spuBoxId": "178",
+            "platformCode": "platform08",
+            "length": 1300,
+            "width": 400,
+            "height": 300,
+            "weight": 27
+        },
+        {
+            "spuBoxId": "179",
+            "platformCode": "platform08",
+            "length": 900,
+            "width": 1100,
+            "height": 700,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "180",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 600,
+            "height": 600,
+            "weight": 10
+        },
+        {
+            "spuBoxId": "181",
+            "platformCode": "platform08",
+            "length": 1300,
+            "width": 800,
+            "height": 400,
+            "weight": 12
+        },
+        {
+            "spuBoxId": "182",
+            "platformCode": "platform08",
+            "length": 1000,
+            "width": 1000,
+            "height": 700,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "183",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 1000,
+            "height": 500,
+            "weight": 38
+        },
+        {
+            "spuBoxId": "184",
+            "platformCode": "platform08",
+            "length": 600,
+            "width": 1200,
+            "height": 700,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "185",
+            "platformCode": "platform08",
+            "length": 1200,
+            "width": 700,
+            "height": 600,
+            "weight": 39
+        },
+        {
+            "spuBoxId": "186",
+            "platformCode": "platform08",
+            "length": 1100,
+            "width": 600,
+            "height": 400,
+            "weight": 31
+        },
+        {
+            "spuBoxId": "187",
+            "platformCode": "platform08",
+            "length": 800,
+            "width": 1100,
+            "height": 600,
+            "weight": 21
+        },
+        {
+            "spuBoxId": "188",
+            "platformCode": "platform08",
+            "length": 500,
+            "width": 900,
+            "height": 700,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "189",
+            "platformCode": "platform08",
+            "length": 1000,
+            "width": 900,
+            "height": 900,
+            "weight": 20
+        },
+        {
+            "spuBoxId": "190",
+            "platformCode": "platform08",
+            "length": 1400,
+            "width": 1200,
+            "height": 600,
+            "weight": 24
+        },
+        {
+            "spuBoxId": "191",
+            "platformCode": "platform08",
+            "length": 1400,
+            "width": 1200,
+            "height": 600,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "192",
+            "platformCode": "platform08",
+            "length": 900,
+            "width": 400,
+            "height": 400,
+            "weight": 37
+        },
+        {
+            "spuBoxId": "193",
+            "platformCode": "platform08",
+            "length": 1300,
+            "width": 1100,
+            "height": 700,
+            "weight": 40
+        },
+        {
+            "spuBoxId": "194",
+            "platformCode": "platform08",
+            "length": 1400,
+            "width": 700,
+            "height": 800,
+            "weight": 22
+        },
+        {
+            "spuBoxId": "195",
+            "platformCode": "platform08",
+            "length": 900,
+            "width": 400,
+            "height": 800,
+            "weight": 16
+        },
+        {
+            "spuBoxId": "196",
+            "platformCode": "platform08",
+            "length": 800,
+            "width": 800,
+            "height": 800,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "197",
+            "platformCode": "platform08",
+            "length": 500,
+            "width": 600,
+            "height": 300,
+            "weight": 25
+        },
+        {
+            "spuBoxId": "198",
+            "platformCode": "platform08",
+            "length": 1300,
+            "width": 700,
+            "height": 600,
+            "weight": 35
+        },
+        {
+            "spuBoxId": "199",
+            "platformCode": "platform08",
+            "length": 1000,
+            "width": 800,
+            "height": 900,
+            "weight": 14
+        },
+        {
+            "spuBoxId": "200",
+            "platformCode": "platform08",
+            "length": 700,
+            "width": 400,
+            "height": 800,
+            "weight": 23
+        }
+    ]
+}
